@@ -2,7 +2,7 @@
 
 ## Usage
 ```
-git clone
+git clone https://github.com/EastMarketSideProjects/neopixel-hat.git
 cd neopixel-hat
 pip install -r requirements.txt
 python3 main.py
