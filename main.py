@@ -99,6 +99,7 @@ def on_message(client, userdata, msg):
     state_payload = {
         "state": "ON" if light_on else "OFF",
         "brightness": current_brightness,
+        "color_mode": "rgb",
         "color": {"r": r, "g": g, "b": b}
     }
     client.publish(MQTT_TOPIC_STATE, json.dumps(state_payload))
