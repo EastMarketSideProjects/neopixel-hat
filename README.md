@@ -1,4 +1,4 @@
-# NeoPixel HAT in Home Assistant
+# Waveshare [RGB LED HAT](https://www.waveshare.com/rgb-led-hat.htm) in Home Assistant
 
 <div align="center">
   <img src="images/demo.png" width="50%">
